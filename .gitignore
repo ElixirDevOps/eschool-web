@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Secrets never belong in the repository. Real values live in the environment;
+# .env.example carries the names only. See docs/security.md.
+.env
+.env.*
+!.env.example
+
+# Written by the checks when they run, published by CI as artifacts.
+.constat/pictures/
+.constat/check-report/
+.constat/check-report-base/
+.constat/report.json
