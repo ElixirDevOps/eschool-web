@@ -1,0 +1,13 @@
+{
+  "branch": "constat/session-1-188e4e43",
+  "screens": [],
+  "criteria": [
+    "Passwords are stored hashed, never as written",
+    "After 5 failed sign-ins, an account waits 15 minutes before the next try",
+    "Every page is served over HTTPS, with secure headers",
+    "No secret is kept in the repository",
+    "A signed-in person can only see and change their own account",
+    "A session ends after 30 days without use"
+  ],
+  "why": "Constat froze these onto the attempt: the acceptance criteria of the requirement it is for, and the screens those criteria name. The picture suite runs the checks whose names are these criteria and skips the rest; where it can match none of them it narrows by these screens instead, and says so. Honoured on this branch only."
+}
